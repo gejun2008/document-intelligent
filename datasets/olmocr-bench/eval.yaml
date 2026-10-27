@@ -1,0 +1,32 @@
+name: olmOCR-bench
+description: olmOCR-bench is a benchmark to evaluate how well VLLMs can parse PDF and scanned documents into clean, semantic markdown/HTML.
+evaluation_framework: olmocr-bench
+
+tasks:
+  - id: overall
+    config: default
+    split: overall     
+  - id: arxiv_math
+    config: default
+    split: arxiv_math
+  - id: headers_footers
+    config: default
+    split: headers_footers
+  - id: long_tiny_text
+    config: default
+    split: long_tiny_text
+  - id: multi_column
+    config: default
+    split: multi_column
+  - id: old_scans
+    config: default
+    split: old_scans
+  - id: old_scans_math
+    config: default
+    split: old_scans_math        
+  - id: table_tests
+    config: default
+    split: table_tests       
+  - id: baseline
+    config: default
+    split: baseline 

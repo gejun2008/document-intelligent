@@ -1,0 +1,20 @@
+# 环境与缓存
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.cache/
+.DS_Store
+
+# 凭据：真实配置只放本机，仓库里只有 config.example.toml
+config.toml
+.env
+
+# 运行产物，可用 prepare / run 重新生成
+eval/
+out/
+out_*/
+
+# OmniDocBench 只限研究用途，不在仓库里再分发；按 README 自行下载
+datasets/omnidocbench/
+datasets/*.log

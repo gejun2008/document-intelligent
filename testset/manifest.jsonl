@@ -1,0 +1,45 @@
+{"name": "docx_000", "kind": "docx", "lang": "zh", "difficulty": "easy", "features": {"tables": 1, "table_rows": 4, "headings": 3}}
+{"name": "xlsx_000", "kind": "xlsx", "lang": "zh", "difficulty": "easy", "features": {"sheets": 1, "merged": 0, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_000", "kind": "pptx", "lang": "mixed", "difficulty": "easy", "features": {"slides": 3, "tables": 1, "notes": 0}}
+{"name": "pdf_native_000", "kind": "pdf_native", "lang": "en", "difficulty": "easy", "features": {"tables": 1, "table_rows": 5, "headings": 3, "pages": 1}}
+{"name": "pdf_scan_000", "kind": "pdf_scan", "lang": "en", "difficulty": "easy", "features": {"tables": 1, "table_rows": 5, "headings": 3, "pages": 1}}
+{"name": "docx_001", "kind": "docx", "lang": "en", "difficulty": "medium", "features": {"tables": 2, "table_rows": 18, "headings": 4}}
+{"name": "xlsx_001", "kind": "xlsx", "lang": "zh", "difficulty": "medium", "features": {"sheets": 2, "merged": 7, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_001", "kind": "pptx", "lang": "zh", "difficulty": "medium", "features": {"slides": 6, "tables": 1, "notes": 4}}
+{"name": "pdf_native_001", "kind": "pdf_native", "lang": "mixed", "difficulty": "medium", "features": {"tables": 2, "table_rows": 11, "headings": 4, "pages": 1}}
+{"name": "pdf_scan_001", "kind": "pdf_scan", "lang": "mixed", "difficulty": "medium", "features": {"tables": 2, "table_rows": 11, "headings": 4, "pages": 1}}
+{"name": "docx_002", "kind": "docx", "lang": "mixed", "difficulty": "hard", "features": {"tables": 5, "table_rows": 160, "headings": 11}}
+{"name": "xlsx_002", "kind": "xlsx", "lang": "en", "difficulty": "hard", "features": {"sheets": 1, "merged": 0, "hidden": 1, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_002", "kind": "pptx", "lang": "zh", "difficulty": "hard", "features": {"slides": 10, "tables": 5, "notes": 5}}
+{"name": "pdf_native_002", "kind": "pdf_native", "lang": "zh", "difficulty": "hard", "features": {"tables": 5, "table_rows": 183, "headings": 11, "pages": 7}}
+{"name": "pdf_scan_002", "kind": "pdf_scan", "lang": "zh", "difficulty": "hard", "features": {"tables": 5, "table_rows": 183, "headings": 11, "pages": 7}}
+{"name": "docx_003", "kind": "docx", "lang": "zh", "difficulty": "easy", "features": {"tables": 0, "table_rows": 0, "headings": 3}}
+{"name": "xlsx_003", "kind": "xlsx", "lang": "mixed", "difficulty": "easy", "features": {"sheets": 1, "merged": 0, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_003", "kind": "pptx", "lang": "en", "difficulty": "easy", "features": {"slides": 3, "tables": 1, "notes": 0}}
+{"name": "pdf_native_003", "kind": "pdf_native", "lang": "zh", "difficulty": "easy", "features": {"tables": 1, "table_rows": 3, "headings": 3, "pages": 1}}
+{"name": "pdf_scan_003", "kind": "pdf_scan", "lang": "zh", "difficulty": "easy", "features": {"tables": 1, "table_rows": 3, "headings": 3, "pages": 1}}
+{"name": "docx_004", "kind": "docx", "lang": "zh", "difficulty": "medium", "features": {"tables": 2, "table_rows": 20, "headings": 4}}
+{"name": "xlsx_004", "kind": "xlsx", "lang": "zh", "difficulty": "medium", "features": {"sheets": 2, "merged": 5, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_004", "kind": "pptx", "lang": "mixed", "difficulty": "medium", "features": {"slides": 6, "tables": 3, "notes": 0}}
+{"name": "pdf_native_004", "kind": "pdf_native", "lang": "en", "difficulty": "medium", "features": {"tables": 2, "table_rows": 13, "headings": 4, "pages": 2}}
+{"name": "pdf_scan_004", "kind": "pdf_scan", "lang": "en", "difficulty": "medium", "features": {"tables": 2, "table_rows": 13, "headings": 4, "pages": 2}}
+{"name": "docx_005", "kind": "docx", "lang": "en", "difficulty": "hard", "features": {"tables": 5, "table_rows": 138, "headings": 11}}
+{"name": "xlsx_005", "kind": "xlsx", "lang": "zh", "difficulty": "hard", "features": {"sheets": 1, "merged": 45, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_005", "kind": "pptx", "lang": "zh", "difficulty": "hard", "features": {"slides": 10, "tables": 3, "notes": 4}}
+{"name": "pdf_native_005", "kind": "pdf_native", "lang": "mixed", "difficulty": "hard", "features": {"tables": 4, "table_rows": 125, "headings": 11, "pages": 6}}
+{"name": "pdf_scan_005", "kind": "pdf_scan", "lang": "mixed", "difficulty": "hard", "features": {"tables": 4, "table_rows": 125, "headings": 11, "pages": 6}}
+{"name": "docx_006", "kind": "docx", "lang": "mixed", "difficulty": "easy", "features": {"tables": 2, "table_rows": 8, "headings": 3}}
+{"name": "xlsx_006", "kind": "xlsx", "lang": "en", "difficulty": "easy", "features": {"sheets": 1, "merged": 0, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_006", "kind": "pptx", "lang": "zh", "difficulty": "easy", "features": {"slides": 3, "tables": 1, "notes": 0}}
+{"name": "pdf_native_006", "kind": "pdf_native", "lang": "zh", "difficulty": "easy", "features": {"tables": 2, "table_rows": 7, "headings": 3, "pages": 1}}
+{"name": "pdf_scan_006", "kind": "pdf_scan", "lang": "zh", "difficulty": "easy", "features": {"tables": 2, "table_rows": 7, "headings": 3, "pages": 1}}
+{"name": "docx_007", "kind": "docx", "lang": "zh", "difficulty": "medium", "features": {"tables": 1, "table_rows": 6, "headings": 4}}
+{"name": "xlsx_007", "kind": "xlsx", "lang": "mixed", "difficulty": "medium", "features": {"sheets": 2, "merged": 6, "hidden": 0, "title_rows": 0, "grouped_headers": 0}}
+{"name": "pptx_007", "kind": "pptx", "lang": "en", "difficulty": "medium", "features": {"slides": 6, "tables": 0, "notes": 2}}
+{"name": "pdf_native_007", "kind": "pdf_native", "lang": "zh", "difficulty": "medium", "features": {"tables": 2, "table_rows": 14, "headings": 4, "pages": 2}}
+{"name": "pdf_scan_007", "kind": "pdf_scan", "lang": "zh", "difficulty": "medium", "features": {"tables": 2, "table_rows": 14, "headings": 4, "pages": 2}}
+{"name": "docx_008", "kind": "docx", "lang": "zh", "difficulty": "hard", "features": {"tables": 4, "table_rows": 138, "headings": 11}}
+{"name": "xlsx_008", "kind": "xlsx", "lang": "zh", "difficulty": "hard", "features": {"sheets": 3, "merged": 25, "hidden": 0, "title_rows": 2, "grouped_headers": 0}}
+{"name": "pptx_008", "kind": "pptx", "lang": "mixed", "difficulty": "hard", "features": {"slides": 10, "tables": 3, "notes": 4}}
+{"name": "pdf_native_008", "kind": "pdf_native", "lang": "en", "difficulty": "hard", "features": {"tables": 4, "table_rows": 132, "headings": 11, "pages": 7}}
+{"name": "pdf_scan_008", "kind": "pdf_scan", "lang": "en", "difficulty": "hard", "features": {"tables": 4, "table_rows": 132, "headings": 11, "pages": 7}}

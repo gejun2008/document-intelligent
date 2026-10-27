@@ -1,0 +1,35 @@
+[project]
+name = "docintel"
+version = "0.1.0"
+description = "文档 → Markdown 流水线：原生解析优先、视觉模型兜底、页级缓存与质量打分"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf>=1.24",
+    "pymupdf4llm>=0.0.17",
+    "openpyxl>=3.1",
+    "python-pptx>=1.0",
+    "mammoth>=1.8",
+    "markdownify>=0.13",
+    "pillow>=10",
+    "httpx>=0.27",
+    "anthropic>=2.0",
+    "azure-ai-documentintelligence>=1.0",
+    "rapidfuzz>=3.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "python-docx>=1.1", "fuzzysearch>=0.7"]
+bench = ["fuzzysearch>=0.7", "huggingface_hub>=1.0"]  # 公开评测集：olmOCR 打分、下载 OmniDocBench
+
+[project.scripts]
+docintel = "docintel.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["docintel*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

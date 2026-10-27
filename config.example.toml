@@ -1,0 +1,56 @@
+# 复制成 config.toml 再改。密钥只放环境变量：
+#   ANTHROPIC_API_KEY（或 `ant auth login`）、AZURE_DI_ENDPOINT、AZURE_DI_KEY
+
+out_dir = "out"
+cache_dir = ".cache/docintel"
+max_docs_in_flight = 4
+cpu_workers = 8
+libreoffice_bin = "soffice"   # macOS: /Applications/LibreOffice.app/Contents/MacOS/soffice
+libreoffice_instances = 2
+keep_page_markers = true
+
+[routing]
+min_chars_per_page = 50
+min_printable_ratio = 0.9
+image_coverage_for_vlm = 0.5
+table_route = "vlm"         # 有表格的 PDF 页：vlm | azure | text（不改道）
+vlm_for_pptx = true
+max_rows_per_table = 500
+
+[render]
+dpi = 170
+max_side = 2000
+
+[azure]
+model_id = "prebuilt-layout"
+max_pages_per_request = 50
+[azure.limits]
+max_concurrency = 4
+rpm = 60
+
+# 主力 VLM：自部署（vLLM 等 OpenAI 兼容接口）
+[vlm]
+provider = "openai_compat"
+model = "your-vlm-model"
+base_url = "http://localhost:8000"
+api_key_env = "VLM_API_KEY"
+max_tokens = 8000
+[vlm.limits]
+max_concurrency = 16
+rpm = 600
+
+# 低分页升级用的强模型
+[vlm_strong]
+provider = "claude"
+model = "claude-opus-5-5"
+max_tokens = 16000
+[vlm_strong.limits]
+max_concurrency = 8
+rpm = 50
+tpm = 400000
+
+[quality]
+pass_score = 0.8
+review_score = 0.5
+judge_sample_rate = 0.05   # 抽 5% 通过的页给 LLM 评审；未通过的页总会被评
+judge_model = "claude-opus-5-5"
